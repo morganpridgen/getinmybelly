@@ -1,0 +1,50 @@
+{
+  "restaurants": [
+    {
+      "name": "Cow Patties",
+      "menus": [
+        {
+          "type": "entree",
+          "selections": [
+            {
+              "id": 0,
+              "name": "Burger"
+            }
+          ]
+        },
+        {
+          "type": "side",
+          "selections": [
+            {
+              "id": 0,
+              "name": "Fries"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Just Desserts",
+      "menus": [
+        {
+          "type": "dessert",
+          "selections": [
+            {
+              "id": 0,
+              "name": "Ice Cream"
+            },
+            {
+              "id": 1,
+              "name": "Cupcakes"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "typeNames": {
+    "entree": "Entrees",
+    "side": "Sides",
+    "dessert": "Desserts"
+  }
+}
