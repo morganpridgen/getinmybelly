@@ -2,7 +2,7 @@
   "restaurants": [
     {
       "id": 0,
-      "name": "Cow Patties",
+      "name": "Cow Patties and Pies",
       "menus": [
         {
           "id": 0,
@@ -12,6 +12,11 @@
               "id": 0,
               "name": "Burger",
               "cost": 7.99
+            },
+            {
+              "id": 1,
+              "name": "Pizza Slice",
+              "cost": 2.99
             }
           ]
         },

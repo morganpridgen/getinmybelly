@@ -1,0 +1,1 @@
+This is a prototype model of the basic structure of our application. It was written as an outline while we worked on learning AR Skills in Unity.
