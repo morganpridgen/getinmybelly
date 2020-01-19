@@ -14,7 +14,7 @@ class Start(tk.Frame):
     self.restaurants.pack()
   def update(self):
     selection = self.restaurants.getSelection()
-    if selection:
+    if selection != None:
       return RestaurantMenu(self.parent, selection)
     return None
   def destroy(self):

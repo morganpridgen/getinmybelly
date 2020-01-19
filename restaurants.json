@@ -1,41 +1,50 @@
 {
   "restaurants": [
     {
+      "id": 0,
       "name": "Cow Patties",
       "menus": [
         {
-          "type": "entree",
+          "id": 0,
+          "type": "Entrees",
           "selections": [
             {
               "id": 0,
-              "name": "Burger"
+              "name": "Burger",
+              "cost": 7.99
             }
           ]
         },
         {
-          "type": "side",
+          "id": 1,
+          "type": "Sides",
           "selections": [
             {
               "id": 0,
-              "name": "Fries"
+              "name": "Fries",
+              "cost": 2.99
             }
           ]
         }
       ]
     },
     {
+      "id": 1,
       "name": "Just Desserts",
       "menus": [
         {
-          "type": "dessert",
+          "id": 0,
+          "type": "Desserts",
           "selections": [
             {
               "id": 0,
-              "name": "Ice Cream"
+              "name": "Ice Cream",
+              "cost": 3.50
             },
             {
               "id": 1,
-              "name": "Cupcakes"
+              "name": "Cupcakes",
+              "cost": 3.50
             }
           ]
         }
